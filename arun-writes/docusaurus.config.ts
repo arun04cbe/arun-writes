@@ -105,11 +105,11 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "My Resources",
           items: [
             {
-              label: "Tutorial",
-              to: "/docs/intro",
+              label: "Gen AI",
+              to: "/docs/gen-ai/intro",
             },
           ],
         },
@@ -117,17 +117,17 @@ const config: Config = {
           title: "Community",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              label: "LinkedIn",
+              href: "https://linkedin.com/in/arun-n-629831172",
             },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "X",
-              href: "https://x.com/docusaurus",
-            },
+            // {
+            //   label: "Discord",
+            //   href: "https://discordapp.com/invite/docusaurus",
+            // },
+            // {
+            //   label: "X",
+            //   href: "https://x.com/docusaurus",
+            // },
           ],
         },
         {
@@ -144,7 +144,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} arun-writes, Built with love using Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
