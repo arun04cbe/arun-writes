@@ -1,4 +1,5 @@
 ---
+sidebar_position: 1
 sidebar_label: Intro
 sidebar_class_name: green
 sidebar_key: unique-sidebar-item-key
@@ -26,3 +27,14 @@ sidebar_key: unique-sidebar-item-key
 
 1. Machine Learning -> Label 10 dogs and cat images and train a model and feed in an image in which the model `predicts` whether the given input is a dog or a cat.
 2. Generative AI -> Train the model with 10 dog images and it will be able to `generate` a new dog image.
+
+### Topics to be covered
+
+1. Add information about training, fine-tuning
+2. Model Providers
+
+3. AI Agents - Agents Autonomy
+4. Memory for Agents
+5. Tools - give power to LLMs (MCP Servers)
+6. Observability
+7. Coding Agents and building agents for SW Development (Agents.md and SKILLS)
