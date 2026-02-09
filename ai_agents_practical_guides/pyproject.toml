@@ -8,4 +8,6 @@ dependencies = [
     "ipykernel>=7.1.0",
     "langchain>=1.2.8",
     "langchain-groq>=1.1.2",
+    "python-dotenv>=1.2.1",
+    "rich>=14.3.2",
 ]
