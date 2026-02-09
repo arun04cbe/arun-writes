@@ -1,4 +1,4 @@
-name: Deploy Keys' Wiki Site
+name: Deploy Docusaurus to GitHub Pages
 
 on:
   push:
@@ -25,7 +25,7 @@ jobs:
         working-directory: ./arun-writes
       - name: Build website
         run: npm run build
-        working-directory: ./keys-wiki-site
+        working-directory: ./arun-writes
 
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
