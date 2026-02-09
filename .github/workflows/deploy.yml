@@ -30,7 +30,7 @@ jobs:
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./keys-wiki-site/build
+          path: ./arun-writes/build
 
   deploy:
     name: Deploy to GitHub Pages
