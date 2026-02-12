@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "exchange-rate-finder": {
+      "url": "http://localhost:8005/sse",
+      "type": "http"
+    }
+  },
+  "inputs": []
+}
